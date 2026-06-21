@@ -1,0 +1,62 @@
+[
+  {
+    "id": "NE-003",
+    "name": "Nemesis T-Type",
+    "codename": "Perseguidor",
+    "virus": "T-Virus + Parásito NE-Alpha",
+    "dangerLevel": "Catastrófico",
+    "image": "/images/nemesis.jpg",
+    "description": "B.O.W. inteligente creada por Umbrella Europa. Diseñado para seguir órdenes complejas y utilizar armamento pesado como lanzacohetes.",
+    "stats": { "fuerza": 90, "velocidad": 85, "resistencia": 95, "inteligencia": 80 }
+  },
+  {
+    "id": "BOW-002",
+    "name": "Licker",
+    "codename": "Lamedor",
+    "virus": "T-Virus (Mutación V-ACT)",
+    "dangerLevel": "Alto",
+    "image": "/images/licker.jpg",
+    "description": "Evolución de un Zombie común tras sufrir una segunda exposición al virus. Ciego por completo, pero con un oído hiperdesarrollado y garras letales.",
+    "stats": { "fuerza": 70, "velocidad": 90, "resistencia": 60, "inteligencia": 20 }
+  },
+  {
+    "id": "MA-121",
+    "name": "Hunter Alpha",
+    "codename": "Cazador",
+    "virus": "T-Virus + ADN de Reptil",
+    "dangerLevel": "Alto",
+    "image": "/images/hunter.jpg",
+    "description": "Una de las líneas de B.O.W. más exitosas de Umbrella. Posee agilidad felina, instinto asesino y la capacidad de decapitar objetivos de un solo golpe.",
+    "stats": { "fuerza": 75, "velocidad": 88, "resistencia": 65, "inteligencia": 40 }
+  },
+  {
+    "id": "T-001",
+    "name": "Tyrant T-001",
+    "codename": "Prototipo Tyrant",
+    "virus": "T-Virus",
+    "dangerLevel": "Crítico",
+    "image": "/images/tyrant-t001.jpg",
+    "description": "El primer prototipo de la línea Tyrant desarrollado en los laboratorios Arklay. Pese a su inmenso poder, su sistema nervioso inestable lo volvió defectuoso.",
+    "stats": { "fuerza": 85, "velocidad": 60, "resistencia": 80, "inteligencia": 10 }
+  },
+  {
+    "id": "T-103",
+    "name": "Tyrant T-103",
+    "codename": "Mr. X",
+    "virus": "T-Virus (Producción en Masa)",
+    "dangerLevel": "Crítico",
+    "image": "/images/tyrant-t103.jpg",
+    "description": "El primer modelo producido en masa con éxito. Cuenta con un abrigo limitador que suprime mutaciones incontrolables y mantiene su apariencia humana básica.",
+    "stats": { "fuerza": 92, "velocidad": 70, "resistencia": 90, "inteligencia": 65 }
+  },
+  {
+    "id": "T-013",
+    "name": "Tyrant T-013",
+    "codename": "Modelo de Contención Oriental",
+    "virus": "T-Virus",
+    "dangerLevel": "Crítico",
+    "image": "/images/tyrant-t013.jpg",
+    "description": "Variante avanzada del modelo T-103 desplegada en conflictos de Europa del Este. Altamente controlable y capaz de resistir impactos de artillería pesada.",
+    "stats": { "fuerza": 95, "velocidad": 75, "resistencia": 93, "inteligencia": 70 }
+  }
+]
