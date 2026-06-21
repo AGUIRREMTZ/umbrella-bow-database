@@ -24,16 +24,12 @@ function PanelDetalles({ criatura }) {
         <p className="text-xs text-zinc-500 font-mono mt-0.5">ID: {criatura.id}</p>
       </div>
 
-      <div className="mt-4 border border-zinc-800 rounded bg-black p-2 relative overflow-hidden group">
-        <div className="absolute top-3 left-3 bg-red-600/10 border border-red-600/30 text-[9px] text-red-400 px-1 py-0.5 uppercase tracking-widest rounded animate-pulse">
-          Escaneo Visual
-        </div>
+      <div className="mt-4 border border-zinc-800 rounded bg-black p-2 relative overflow-hidden">
         <img
           src={criatura.image}
           alt={criatura.name}
-          className="w-full h-auto max-h-72 object-contain mx-auto rounded transition-all duration-500 filter brightness-90 contrast-110"
+          className="w-full h-auto max-h-72 object-contain mx-auto rounded transition-all duration-500 filter brightness-95 contrast-105"
         />
-        <div className="absolute inset-0 border border-red-900/10 pointer-events-none balanced-grid"></div>
       </div>
 
       <div className="mt-4 space-y-3 text-xs text-zinc-300 leading-relaxed border-b border-zinc-800 pb-4">
