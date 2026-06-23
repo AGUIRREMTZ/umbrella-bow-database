@@ -2,32 +2,23 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="border-b border-red-900/40 pb-4 flex flex-col md:flex-row md:items-start justify-between gap-4">
-      
+    <header className="border-b border-red-900/40 pb-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
       <div>
         <div className="flex items-center gap-2">
-          <span className="w-3 h-3 bg-red-600 rounded-full"></span>
-          <h1 className="text-xl md:text-2xl font-black tracking-wider text-white">
-            UMBRELLA CORP.
+          <span className="w-3 h-3 bg-red-600 rounded-full animate-pulse shadow-[0_0_8px_#dc2626]"></span>
+          <h1 className="text-xl md:text-2xl font-black tracking-wider text-red-500 uppercase">
+            Umbrella Corp.
           </h1>
         </div>
-        <p className="text-xs text-zinc-500 mt-1 font-mono tracking-wide">
+        <p className="text-xs text-zinc-500 mt-1 font-mono tracking-widest uppercase">
           Bio Organic Weapon (B.O.W.) Tactical Database
         </p>
       </div>
-
-      <div className="bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded-md font-mono text-center md:text-right shadow-inner min-w-[160px]">
-        <div className="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">
-          ESTATUS: 
-          <span className="font-bold text-red-500 ml-1.5">
-            EN LÍNEA
-          </span>
-        </div>
-        <div className="text-zinc-600 text-[9px] mt-0.5 uppercase tracking-tighter">
-          Acceso Autorizado - Nivel 5
-        </div>
+      
+      <div className="bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded text-right font-mono text-[10px] md:text-xs text-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.05)]">
+        <div>ESTATUS: <span className="font-bold animate-pulse">EN LÍNEA</span></div>
+        <div className="text-zinc-500 text-[9px] mt-0.5 uppercase tracking-wider">Acceso Autorizado - Nivel 5</div>
       </div>
-
     </header>
   );
 }
